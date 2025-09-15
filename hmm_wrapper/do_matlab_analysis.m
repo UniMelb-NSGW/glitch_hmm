@@ -52,4 +52,4 @@ end
 
 writematrix(all_BFs, [out_prefix 'bfs.dat'], 'Delimiter', ' ');
 
-save([out_prefix 'analysis.mat'])
+save([out_prefix 'analysis.mat'], '-v7')
