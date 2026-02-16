@@ -41,5 +41,4 @@ while true
         [BF(m),k]=max(E-E0);
         J(m)=k;
     end
-    save in_progress.mat
 end
